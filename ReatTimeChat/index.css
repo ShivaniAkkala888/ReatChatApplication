@@ -1,0 +1,553 @@
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color:white;
+    box-sizing: border-box; /* This includes padding and border in the width */
+
+    font-family: sans-serif;
+}
+@media screen and (max-width:425px) {
+  header{
+    width: 100%;
+  }  
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+        
+    }
+}
+body{
+    background-color:lightgray;
+}
+header {
+   
+    background-color: #007bff;
+    color: #fff;
+
+    
+    
+  }
+#conatiner2{
+
+background-color:lightgreen;
+height: 320px;
+width: 350px;
+position: relative;
+left: 400px;
+
+bottom: 545px;
+padding: 20px 0 0 10px;
+/* border: ridge 2px; */
+box-shadow: 2px 2px 1px black;
+overflow-y: auto;
+overflow-x: none;
+
+}
+#chatpage{
+    position: relative;
+    bottom: 870px;
+    left: 420px;
+    list-style: none;
+  }
+#msg{
+    display: inline-block;
+    color: black;
+    position: relative;
+    bottom: 77px ;
+    left: 70px;
+    
+}
+#dp{
+    display: inline-block;
+    color:black;
+    position: relative;
+    left: 30px;
+    bottom: 25px;
+    list-style: none;
+}
+#lftarrow{
+    color:black;
+}
+#Calls{
+    display: flex;
+    position: relative;
+    left: 650px;
+    bottom: 1015px;
+
+
+}
+.vdcalls{
+
+    padding: 10px;
+    list-style: none;
+}
+
+#telephone:hover{
+    animation: zoom 2s infinite;
+    
+    }
+    @keyframes zoom {
+        0%{
+            transform: scale(2,2);
+        }
+       
+    }
+ #cameravideo:hover{
+    animation: zoomv 2s infinite;
+    
+}
+@keyframes zoomv {
+    0%{
+        transform: scale(2,2);
+    }
+ }   
+
+ul{
+    padding:0;
+}
+.listitems:hover{
+    background-color: gray;
+    color: white;
+
+}
+#inputvaluesadd{
+    position: relative;
+    top: 70px;
+}
+.listitems{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+    /* font-family:; */
+    font-size: small;
+    background-color: white;
+    width:275px;
+    /* border: outset; */
+    border-radius: 5px;
+    display: flex;
+  justify-content: space-between;
+  align-content: center;
+  /* border: inse; */
+  /* border-radius: 8px; */
+
+  padding-bottom: 2px;
+  padding-top: 2px;
+  box-shadow: 2px 2px 1px black;
+  
+  
+  /* position: relative;
+  right: 100px; */
+
+}
+#addbtn{
+
+
+
+   top: 0px;
+   height: 28px;
+   box-shadow: 2px 2px 1px black;
+   cursor: pointer;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+input{
+  
+    box-shadow: 2px 2px 1px black;
+    border-radius: 5px;
+    width: 310px;
+    
+    height: 30px;
+    /* bottom: 360px; */
+} 
+
+input:focus{
+    border: ridge;
+    box-shadow: 2px 2px 1px black;
+}
+ #deleteicon{
+
+    padding-top: 6px;
+    /* border: solid black; */
+    font-size:10px;
+    color:black;
+    position: static;
+    /* background-color: black;
+    box-shadow: 2px 2px 1px black; */
+    
+}
+#inputbtn{
+    position: relative;
+    left: 400px;
+     bottom: 758px;
+}
+#profieid{
+    display: inline-block;
+
+    
+}
+#idspersons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#idscreate{
+     position: relative;
+     right: 20px;
+     bottom: 25px;
+     pointer-events: auto;
+   
+
+}
+@media screen and (max-width:768px){
+    #idscreate{
+        position: relative;
+        right: 45px;
+        bottom: 28px;
+       
+    width: 320px;
+    
+   }
+   #cameraPreview{
+    position: relative;
+    bottom: 430px;
+    left: 38px;
+    height: 373px;
+    width: 290px;
+     
+}
+  #chatpage{
+    position: relative;
+    bottom: 470px;
+    left: 50px;
+    list-style: none;
+  }
+  
+   #conatiner2{
+
+    background-color:lightgreen;
+    
+    width: 280px;
+    position: relative;
+    left: 38px;
+   
+    bottom:150px;
+    padding: 20px 0 0 10px;
+    /* border: ridge 2px; */
+    box-shadow: 2px 2px 1px black;
+    overflow-y: auto;
+    overflow-x: none;
+    
+    }
+    #inputvaluesadd{
+        position: relative;
+       top: 70px;
+    }
+   
+    #Settings{
+        display: inline-block;
+        /* background-color: white; */
+        height: 100;
+        width: 50px;
+        position: relative;
+        left: 215px;
+        bottom: 290px;
+        list-style: none;
+    }
+    #chatsandupdates{
+        display: flex;
+        float: row;
+        list-style: none;
+        position: relative;
+        left: 110px;
+        bottom: 500px;
+        width: 50px;
+        
+    }
+    #inputbtn{
+        position: relative;
+        left: 37.5px;
+         bottom: 443px;
+    }
+    input{
+  
+        box-shadow: 2px 2px 1px black;
+        border-radius: 5px;
+        width: 240px;
+        
+        height: 30px;
+        /* bottom: 360px; */
+    } 
+    
+    .listitems{
+        margin-left: 30px;
+        margin-bottom: 10px;
+        padding-left: 7px;
+        /* font-family:; */
+        font-size: small;
+        background-color: white;
+        width:200px;
+        /* border: outset; */
+        border-radius: 5px;
+        display: flex;
+      justify-content: space-between;
+      align-content: center;
+      /* border: inse; */
+      /* border-radius: 8px; */
+    
+      padding-bottom: 2px;
+      padding-top: 2px;
+      box-shadow: 2px 2px 1px black;
+      
+      
+      /* position: relative;
+      right: 100px; */
+    
+    }
+    
+    #Calls{
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        left: 280px;
+        bottom: 650px;
+    }
+    
+#telephone:hover{
+    animation: zoom 2s infinite;
+    
+    }
+    @keyframes zoom {
+        0%{
+            transform: scale(0,2);
+        }
+       
+    }
+ #cameravideo:hover{
+    animation: zoomv 2s infinite;
+    
+}
+@keyframes zoomv {
+    0%{
+        transform: scale(1,1);
+    }
+ }
+
+ #morelinks{
+    display: none;
+}
+#morelinks.displaythemore{
+    display: block;
+    color:black ;
+    position: relative;
+    right: 517px;
+    top: 100px;
+}
+.morelinks{
+    margin-bottom: 5px;
+    background-color:white;
+    padding: 5px;
+    border:solid;
+    border-radius: 3px;
+    cursor:grab;
+    width: 150px;
+    /* position: relative;
+    bottom: 900px;
+    left: 100px;
+    list-style: none; */
+}
+
+ 
+    
+}
+
+.list{
+
+    margin-left: 90px;
+    margin-bottom: 0px;
+    padding:5px 3px 5px 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: white;
+    width:265px;
+    display: flex;
+  justify-content: space-between;
+  border: inset;
+  border-radius: 8px;
+}
+.list:hover{
+    background-color: gray; 
+    cursor: hand;
+    color: white;
+}
+::selection{
+    color: red;
+    background:gray;
+}
+#headerofapp{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 215px;
+    background-color: green;
+    padding: 30px;
+    padding-bottom: 40px;
+    position: relative;
+    left: 90px;
+    top: 15px;
+
+    border: inset;
+    border-radius: 8px;
+    color: white;
+}
+.header:hover{
+background-color: green;
+
+
+}
+#NewApp{
+    cursor: not-allowed;
+}
+#Searchicon:hover{
+animation: change 2s infinite;
+
+}
+@keyframes change {
+    0%{
+        transform: scale(2,2);
+    }
+   
+}
+/* #Cameraicon:hover{
+    animation: change2 1s infinite;
+}
+@keyframes change2 {
+    0%{
+        transform: scale(2,2);
+    }
+   
+} */
+/* #cameraPreview{
+    position: relative;
+    bottom: 950px;
+    left: 920px;
+    height: 373px;
+    width: 394px;
+     
+} */
+
+
+#idscreate{
+    display: inline-block;
+    padding-right:30px ;
+    /* background-color: gray; */
+}
+#navlinks{
+    display:none;
+}
+#navlinks.show{
+display: block;
+position: relative;
+top: 5px;
+color: black;
+
+
+}
+#Settings{
+    display: inline-block;
+    /* background-color: white; */
+    height: 100;
+    width: 100;
+    position: relative;
+    left: 267px;
+    bottom: 290px;
+    list-style: none;
+}
+.More{
+    margin-bottom: 5px;
+    background-color:white;
+    padding: 5px;
+    border:solid;
+    border-radius: 3px;
+    cursor:grab;
+}
+.More:hover{
+    background-color: gray;
+}
+#chatsandupdates{
+    display: flex;
+    float: row;
+    list-style: none;
+    position: relative;
+    left: 110px;
+    bottom: 430px;
+    width: 50px;
+    
+}
+.chathead{
+    padding: 13px;
+    color: white;
+    height: 10px;
+}
+.chathead:hover{
+    cursor: progress;
+    background-color:white;
+    color: black;
+}
+
+#morelinks{
+    display: none;
+}
+#morelinks.displaythemore{
+    display: block;
+    color:black ;
+}
+.morelinks{
+    margin-bottom: 5px;
+    background-color:white;
+    padding: 5px;
+    border:solid;
+    border-radius: 3px;
+    cursor:grab;
+    width: 100px;
+    position: relative;
+    bottom: 1088px;
+    left: 630px;
+    list-style: none;
+}
+.morelinks:hover{
+    background-color: lightblue;
+}
+#media{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+
+}
+#cameraPreview{
+    position: relative;
+    bottom: 1205px;
+    left: 775px;
+    height: 373px;
+    width: 290px;
+     
+}
+/* video {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+} */
+/* #chatpage{
+    display: flex;
+    color: white;
+    flex-direction: row;
+   justify-content: space;
+    list-style: none;
+    
+} */
